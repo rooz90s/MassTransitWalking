@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Masstransit" Version="8.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Warhouse\Warehouse.Contract\Warehouse.Contract.csproj" />
+    <ProjectReference Include="..\Sample.Contract\Sample.Contract.csproj" />
+  </ItemGroup>
+
+</Project>
